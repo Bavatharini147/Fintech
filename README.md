@@ -31,6 +31,30 @@ Vice-versa transferring of money between the compartments is also possible.
 -pypdf
 -matplotlib
 
+## Installation and Setup
+
+Install Python and Visual Studio Code.
+
+Install Ollama using the official Ollama installer.
+
+Download the Llama 3.2:3b model using Command Prompt:
+
+ollama pull llama3.2:3b
+
+Create and activate a Python virtual environment.
+
+Install the required Python packages:
+
+pip install -r requirements.txt
+
+Start the Ollama service:
+
+ollama serve
+
+Run the application:
+
+streamlit run app.py
+
 ## Working Principle
 
 ### 1. AI-Powered Discretionary Spending
